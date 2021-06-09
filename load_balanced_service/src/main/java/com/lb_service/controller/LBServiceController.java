@@ -10,7 +10,7 @@ public class LBServiceController {
 	@Value("${server.port}")
 	private String port;
 	
-	@GetMapping("/app")
+	@GetMapping("/application")
 	public String getData() {
 		return "Getting response from "+port;
 	}
